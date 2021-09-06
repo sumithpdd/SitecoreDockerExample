@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Build", "_Build", "{A48C255E-881F-4FC1-B857-7F697828D5AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{28A1F4EA-51F2-4F00-AC8D-C20D09148243}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{27DD52D8-9E75-485B-9332-C01C115CE27C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{85ED9BEC-795C-4FBF-8FC3-29FC7A9C27D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{CF64D431-54DB-4DCE-84D4-0DAFACD228EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecon.Project.Website", "src\Project\Website\code\Sitecon.Project.Website\Sitecon.Project.Website.csproj", "{18AA37F8-BB7E-422A-8A31-90E04F0F5F40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18AA37F8-BB7E-422A-8A31-90E04F0F5F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18AA37F8-BB7E-422A-8A31-90E04F0F5F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18AA37F8-BB7E-422A-8A31-90E04F0F5F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18AA37F8-BB7E-422A-8A31-90E04F0F5F40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF64D431-54DB-4DCE-84D4-0DAFACD228EC} = {85ED9BEC-795C-4FBF-8FC3-29FC7A9C27D2}
+		{18AA37F8-BB7E-422A-8A31-90E04F0F5F40} = {CF64D431-54DB-4DCE-84D4-0DAFACD228EC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32B75178-681B-4185-BA71-1C350BC97FAA}
+	EndGlobalSection
+EndGlobal
